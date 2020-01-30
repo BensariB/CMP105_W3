@@ -23,4 +23,8 @@ private:
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
+
+	sf::CircleShape circle;
+	sf::Vector2f speed;
+	sf::Vector2f direction;
 };
